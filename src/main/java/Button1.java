@@ -10,7 +10,9 @@ public class Button1 extends JFrame {
             b2 = new JButton("Button 2");
     public Button1(){
         setLayout(new FlowLayout());
+        int i = 9;
         add(b1);
+        int a = 0;
         add(b2);
     }
 

@@ -9,6 +9,7 @@ public class HelloLabel {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Hello Swing");
         JLabel label = new JLabel("A Label");
+        int a = 1;
         frame.add(label);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1000,1000);
